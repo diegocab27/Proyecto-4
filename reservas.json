@@ -1,0 +1,64 @@
+[
+    {
+        "name" : "Diego Cabrera",
+        "email": "diego@cabrera.com",
+        "paymentStatus": "pagado",
+        "arrivalDate": "19/11/2024",
+        "departureDate": "25/11/2024",
+        "nameHotel": "Hotel Paraiso",
+        "typeRoom": "doble",
+        "passengers": 2
+    },
+    {
+        "name" : "Laura Pérez",
+        "email": "laura@perez.com",
+        "paymentStatus": "pendiente",
+        "arrivalDate": "15/11/2024",
+        "departureDate": "20/11/2024",
+        "nameHotel": "Hotel Sol",
+        "typeRoom": "suite",
+        "passengers": 3
+    },
+    {
+        "name" : "Carlos Fernández",
+        "email": "carlos@fernandez.com",
+        "paymentStatus": "cancelado",
+        "arrivalDate": "10/11/2024",
+        "departureDate": "18/11/2024",
+        "nameHotel": "Hotel Luna",
+        "typeRoom": "single",
+        "passengers": 1
+    },
+    {
+        "name" : "María Gómez",
+        "email": "maria@gomez.com",
+        "paymentStatus": "pagado",
+        "arrivalDate": "22/11/2024",
+        "departureDate": "28/11/2024",
+        "nameHotel": "Hotel Estrella",
+        "typeRoom": "doble",
+        "passengers": 2
+    },
+    {
+        "name" : "Juan López",
+        "email": "juan@lopez.com",
+        "paymentStatus": "pendiente",
+        "arrivalDate": "05/11/2024",
+        "departureDate": "12/11/2024",
+        "nameHotel": "Hotel Paraíso",
+        "typeRoom": "suite",
+        "passengers": 4
+    },
+    {
+        "name" : "Ana Martínez",
+        "email": "ana@martinez.com",
+        "paymentStatus": "pagado",
+        "arrivalDate": "17/11/2024",
+        "departureDate": "22/11/2024",
+        "nameHotel": "Hotel Sol",
+        "typeRoom": "single",
+        "passengers": 1
+    }
+
+]
+
