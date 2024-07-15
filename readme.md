@@ -4,18 +4,29 @@
 
 En este proyecto se realiza una landing page para un negocio de una tienda ficticia, implementando HTML y CSS.
 
-Link de Proyecto: [Mundo Marcial](https://diegocab27.github.io/Proyecto3/)
-
-![image](https://github.com/diegocab27/Proyecto3/assets/162330383/61c23be0-1bd9-4833-ba57-14b71750f508)
-
 
 ## Autor
 - Diego Cabrera Carrasco  [@diegocab27](https://www.github.com/diegocab27)
 
 ## Planteamiento
 
-El objetivo principal de este proyecto es desarrollar una interfaz utilizando HTML y CSS, en toda su aplicación. El proyecto debe cumplir con los siguientes requisitos:
+El objetivo principal de este proyecto es construir una aplicacion de servicios CRUD para la industria hotelera,específicamente para la gestión de reservas.Además, le proporcionaremos un sistema de búsqueda.
 
-- Prototipado simple.
-- Etiquetas estándar HTML5.
-- Implementar Css.
+
+#### End Points
+
+| Descripción                                    | Método | Endpoint                            
+| ---------------------------------------------- | ------ | --------------------------
+| Realizar la creacion de una reserva en especifico | POST    | api/reservas                    |
+| Mostrar lista de reservas creadas | GET    |  api/reservas                   |
+| Mostrar una reserva en especifico con el id      | GET | /api/reservas/:id                     |
+| Actualizar una reserva especifica               | PUT   | /api/reservas/:id |
+|Eliminar una reserva especifica                  | DEL   | /api/reservas/:id | 
+|Filtrar reserva por nombre de hotel              | GET    | /reservas/search?nameHotel=nameHotel | 
+|Filtrar reserva por fecha de ingreso y salida     | GET    | /api/reservas/search?arrivalDate=arrivalDate&departureDate=departureDate| 
+|Filtrar reserva por estado de pago              | GET    | /api/reservas/search?paymentStatus=paymentStatus| 
+|Filtrar reserva por tipo de habitacion             | GET    | /api/reservas/search?typeRoom=typeRoom| 
+|Filtrar reserva por numero de huespedes           | GET    | /api/reservas/search?passengers=passengers| 
+
+
+
