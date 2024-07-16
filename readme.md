@@ -234,14 +234,14 @@ exports.search= (req, res) => {
 
 ![image](https://github.com/user-attachments/assets/0d6b76e3-21bb-4524-8983-34c497f35ba7)
 
--Filtrado por rango de fecha
+- Filtrado por rango de fecha
 
 ![image](https://github.com/user-attachments/assets/9bf3fc72-bc30-4a5b-ad06-383a4b78c960)
 
 - Filtrado por estado de pago
 ![image](https://github.com/user-attachments/assets/8468d067-4166-427c-8582-caff4023ed5d)
 
--Filtrado por tipo de habitacion
+- Filtrado por tipo de habitacion
 
 ![image](https://github.com/user-attachments/assets/ae61b7c7-9faf-4863-8289-138685dd0df0)
 
