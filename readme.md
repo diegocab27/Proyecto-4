@@ -30,7 +30,7 @@ Construir una aplicación de servicios para la gestión de reservas en hoteles q
 
 #### Index.js
 
-Configuracion del archivo principal de nuetra aplicacion
+Configuracion del archivo principal de la aplicacion
 
 ```
 const express = require("express");//Express.js para la creación del servido
@@ -210,5 +210,20 @@ exports.search= (req, res) => {
 
 
 #### Pruebas en Insomnia
+
+-Creacion de reserva
+
+![image](https://github.com/user-attachments/assets/f4af2aa3-204a-4002-bf7e-cf16b1b0059e)
+
+-Lista de reservas
+![image](https://github.com/user-attachments/assets/0f7c1f9f-e166-4df8-9105-1e29644ffccf)
+
+-Busqueda por ID
+
+![image](https://github.com/user-attachments/assets/9f2a47d9-7756-499d-ba01-071c898f18eb)
+
+
+
+
 
 
