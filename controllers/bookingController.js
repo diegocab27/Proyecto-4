@@ -1,10 +1,9 @@
 const {Booking} = require("../models/booking");
 
-
-
 let bookings = []
 
 
+//Fucnion para crear reserva
 exports.createBooking=(req,res)=>{
     const newBooking = req.body;
     newBooking.id = bookings.length + 1;
@@ -13,11 +12,15 @@ exports.createBooking=(req,res)=>{
 
 };
 
+
+//Funcion para mostrar el listado de reservas creadas
 exports.findAll=(req,res)=>{
     res.send(bookings);
 
 };
 
+
+//Funcion para encoentrar reserva especifica
 exports.findOne=(req,res)=>{
    
     const id = parseInt(req.params.id);
@@ -37,6 +40,7 @@ exports.findOne=(req,res)=>{
 };
 
 
+//Funcion para la actualizacion de reservas
 exports.update=(req,res)=>{
     const id = parseInt(req.params.id);
     console.log(id)
@@ -51,6 +55,7 @@ exports.update=(req,res)=>{
   
 };
 
+//Funcion para elimiinar reserva
 exports.remove=(req,res)=>{
     const id = parseInt(req.params.id);
     console.log(id)
@@ -66,17 +71,16 @@ exports.remove=(req,res)=>{
 };
 
 
-
 exports.search= (req, res) => {
 
     const filteredBooking = bookings.filter((booking) =>{
-
+        //Filtado de nombre de hotel
         if(booking.nameHotel === req.query.nameHotel){
             return true 
         }
 
         
-
+        //Filtrado de fechas segun tramo de entrada y salida
         if(req.query.arrivalDate<=req.query.departureDate){
             if(booking.departureDate>=req.query.departureDate){
                 if(booking.arrivalDate<=req.query.departureDate)
@@ -89,24 +93,27 @@ exports.search= (req, res) => {
 
         }
 
-
+        //Filtrado por tipo de habitacion
         if(booking.typeRoom === req.query.typeRoom){
             return true 
         }
+        //Filtrado por estado de pago
         if(booking.paymentStatus === req.query.paymentStatus){
             return true 
         }
+        //Filtrado por numero de pasajeros
         if(booking.passengers === parseInt(req.query.passengers)){
             return true 
         }        
     
     })
     
-
+    //Si no encuentra la reserva envia mensaje de no encontrado
     if (filteredBooking.length === 0) { 
         return res.status(404).send({ ok: false, description: `Busqueda no encontrada`})
     }
 
+    //Respuesta a la reserva encontrada
     res.send({ ok: true, description: `Busqueda de filtro encontrada `,filteredBooking});
 }
 
