@@ -216,6 +216,7 @@ exports.search= (req, res) => {
 ![image](https://github.com/user-attachments/assets/f4af2aa3-204a-4002-bf7e-cf16b1b0059e)
 
 -Lista de reservas
+
 ![image](https://github.com/user-attachments/assets/0f7c1f9f-e166-4df8-9105-1e29644ffccf)
 
 - Busqueda por ID
@@ -239,6 +240,7 @@ exports.search= (req, res) => {
 ![image](https://github.com/user-attachments/assets/9bf3fc72-bc30-4a5b-ad06-383a4b78c960)
 
 - Filtrado por estado de pago
+- 
 ![image](https://github.com/user-attachments/assets/8468d067-4166-427c-8582-caff4023ed5d)
 
 - Filtrado por tipo de habitacion
