@@ -215,7 +215,7 @@ exports.search= (req, res) => {
 
 ![image](https://github.com/user-attachments/assets/f4af2aa3-204a-4002-bf7e-cf16b1b0059e)
 
--Lista de reservas
+- Lista de reservas
 
 ![image](https://github.com/user-attachments/assets/0f7c1f9f-e166-4df8-9105-1e29644ffccf)
 
