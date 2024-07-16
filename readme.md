@@ -222,6 +222,39 @@ exports.search= (req, res) => {
 
 ![image](https://github.com/user-attachments/assets/9f2a47d9-7756-499d-ba01-071c898f18eb)
 
+-Actualizacion de reserva
+
+![image](https://github.com/user-attachments/assets/0fbf857b-eefb-4e02-a4b8-a91d0a7bd7e5)
+
+-Eliminar reserva
+
+![image](https://github.com/user-attachments/assets/5c7da241-4ba6-42e8-b01d-1189563fc241)
+
+-Filtrado por Nombre de hotel
+
+![image](https://github.com/user-attachments/assets/0d6b76e3-21bb-4524-8983-34c497f35ba7)
+
+-Filtrado por rango de fecha
+
+![image](https://github.com/user-attachments/assets/9bf3fc72-bc30-4a5b-ad06-383a4b78c960)
+
+-Filtrado por estado de pago
+![image](https://github.com/user-attachments/assets/8468d067-4166-427c-8582-caff4023ed5d)
+
+-Filtrado por tipo de habitacion
+
+![image](https://github.com/user-attachments/assets/ae61b7c7-9faf-4863-8289-138685dd0df0)
+
+-Filtrado por cantidad de huepedes
+
+![image](https://github.com/user-attachments/assets/633fe6f1-205b-433f-aafb-a15d6380fb43)
+
+
+
+
+
+
+
 
 
 
